@@ -1,1 +1,3 @@
-console.log('test')
+import _ from 'lodash';
+
+console.log(_.max([1, 2, 3]));
